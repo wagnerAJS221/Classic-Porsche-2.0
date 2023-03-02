@@ -7,6 +7,7 @@ import Services from './components/pages/Services'
 import Products from './components/pages/Products'
 import SignUp from './components/pages/SignUp'
 import AboutUs from './components/pages/AboutUs'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/sign-up" element={SignUp()} />
           <Route path="/sign-up" element={AboutUs()} />
         </Routes>
+        <Footer />
       </Router>
     </>
   )

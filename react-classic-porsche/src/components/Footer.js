@@ -81,20 +81,20 @@ function Footer() {
               <i className="fab fa-instagram"></i>
             </Link>
             <Link
-              class="social-icon-link twitter"
+              className="social-icon-link twitter"
               to="/"
               target="_blank"
               aria-label="Twitter"
             >
-              <i class="fab fa-twitter" />
+              <i className="fab fa-twitter" />
             </Link>
             <Link
-              class="social-icon-link linkedin"
+              className="social-icon-link linkedin"
               to="/"
               target="_blank"
               aria-label="LinkedIn"
             >
-              <i class="fab fa-linkedin" />
+              <i className="fab fa-linkedin" />
             </Link>
           </div>
         </div>
