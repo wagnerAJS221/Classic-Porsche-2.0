@@ -8,7 +8,8 @@
 .home,
 .services,
 .products,
-.sign-up {
+.sign-up,
+.about-us {
   display: flex;
   height: 90vh;
   align-items: center;
@@ -17,7 +18,7 @@
 }
 
 .services {
-  background-image: url('../public/porscheIMG/p7.jpg');
+  background-image: url('../public/porscheIMG/p2.webp');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -26,7 +27,7 @@
 }
 
 .products {
-  background-image: url('../public/porscheIMG/p8.jpg');
+  background-image: url('../public/porscheIMG/p17.webp');
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
@@ -40,5 +41,14 @@
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
+  font-size: 100px;
+}
+
+.about-us {
+  background-image: url('../public/porscheIMG/p15.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #ffffff;
   font-size: 100px;
 }
