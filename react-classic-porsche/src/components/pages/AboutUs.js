@@ -6,7 +6,9 @@ function AboutUs() {
     <>
       <h1 className="about-us">About Us</h1>
       <div className="information-container">
-        <p>This is the about us section</p>
+        <div className="about-us-information">
+          <p>This is the about us section</p>
+        </div>
       </div>
     </>
   )

@@ -1,0 +1,82 @@
+{
+  "carProducts": [
+    {
+      "id": 1,
+      "Price": "As stated",
+      "Ad Type": "For Sale",
+      "Category": "Classic Cars",
+      "Make": "Porsche",
+      "Model": "911",
+      "Year": 1969,
+      "Country": "Germany",
+      "Region": "International",
+      "Status": "Trade",
+      "Listed on": "23-Feb-2023"
+    },
+    {
+      "id": 2,
+      "Price": "As stated",
+      "Ad Type": "For Sale",
+      "Category": "Classic Cars",
+      "Make": "Porsche",
+      "Model": "911",
+      "Year": 1969,
+      "Country": "Germany",
+      "Region": "national",
+      "Status": "Trade",
+      "Listed on": "23-Feb-2023"
+    },
+    {
+      "id": 3,
+      "Price": "As stated",
+      "Ad Type": "For Sale",
+      "Category": "Classic Cars",
+      "Make": "Porsche",
+      "Model": "911",
+      "Year": 1969,
+      "Country": "United Kingdom",
+      "Region": "International",
+      "Status": "Trade",
+      "Listed on": "23-Feb-2023"
+    },
+    {
+      "id": 4,
+      "Price": "As stated",
+      "Ad Type": "For Sale",
+      "Category": "Classic Cars",
+      "Make": "Porsche",
+      "Model": "911",
+      "Year": 1969,
+      "Country": "Germany",
+      "Region": "International",
+      "Status": "Trade",
+      "Listed on": "23-Feb-2023"
+    },
+    {
+      "id": 5,
+      "Price": "As stated",
+      "Ad Type": "For Sale",
+      "Category": "Classic Cars",
+      "Make": "Porsche",
+      "Model": "911",
+      "Year": 1969,
+      "Country": "Germany",
+      "Region": "International",
+      "Status": "Trade",
+      "Listed on": "23-Feb-2023"
+    },
+    {
+      "id": 6,
+      "Price": "As stated",
+      "Ad Type": "For Sale",
+      "Category": "Classic Cars",
+      "Make": "Porsche",
+      "Model": "911",
+      "Year": 1969,
+      "Country": "Germany",
+      "Region": "International",
+      "Status": "Trade",
+      "Listed on": "23-Feb-2023"
+    }
+  ]
+}

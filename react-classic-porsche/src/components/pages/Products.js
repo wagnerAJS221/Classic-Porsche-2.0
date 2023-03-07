@@ -2,18 +2,13 @@ import React from 'react'
 import '../../App.css'
 import '../Cards.css'
 import CardItem from '../CardItem'
+// import carData from '../../fakeData/carData.json'
 
 function Products() {
   return (
     <>
       <h1 className="products">PRODUCTS</h1>
       <div className="car-list">
-        <p>
-          {' '}
-          I will be using the card template to render my "car products" but will
-          likely change it next week to build some fake car data that will then
-          replace the hard coded cards
-        </p>
         <div className="cards__container">
           <div className="cards__wrapper">
             <ul className="cards__items">
@@ -23,6 +18,7 @@ function Products() {
                 label="Find Perfection"
                 path="/products"
               />
+
               <CardItem
                 src="../../porscheIMG/p4.webp"
                 text="Theres something for everyone"
