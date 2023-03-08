@@ -1,6 +1,6 @@
-import React, { useState } from 'react'
+// import React, { useState } from 'react'
 import '../../App.css'
-import Button from '../Button'
+// import Button from '../Button'
 import './Sign-up.css'
 
 export default function SignUp() {

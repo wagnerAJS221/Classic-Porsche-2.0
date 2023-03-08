@@ -2,6 +2,7 @@ import React from 'react'
 import '../../App.css'
 import '../Cards.css'
 import CardItem from '../CardItem'
+import './Products.css'
 // import carData from '../../fakeData/carData.json'
 
 function Products() {
@@ -11,47 +12,57 @@ function Products() {
       <div className="car-list">
         <div className="cards__container">
           <div className="cards__wrapper">
-            <ul className="cards__items">
-              <CardItem
-                src="../../porscheIMG/p19.jpg"
-                text="German Engineering at its finest"
-                label="Find Perfection"
-                path="/products"
-              />
+            <div className="car-list-container">
+              <ul className="cards__items">
+                <CardItem
+                  src="../../porscheIMG/p21.jpg"
+                  text="German Engineering at its "
+                  label="Find Perfection"
+                  path="/car-view"
+                />
 
-              <CardItem
-                src="../../porscheIMG/p4.webp"
-                text="Theres something for everyone"
-                label="Mechanial Beauty's true form"
-                path="/products"
-              />
-            </ul>
-            <ul className="cards__items">
-              <CardItem
-                src="../../porscheIMG/p16.jpg"
-                text="Need it for the Track?"
-                label="Speak to our consultants"
-                path="/services"
-              />
-              <CardItem
-                src="../../porscheIMG/p14.jpg"
-                text="Keeping it classy ?"
-                label="Valet Services"
-                path="/services"
-              />
-              <CardItem
-                src="../../porscheIMG/p15.jpg"
-                text="Finely tuned for your needs"
-                label="See Services"
-                path="/services"
-              />
-              <CardItem
-                src="../../porscheIMG/p3.jpg"
-                text="Read about who classic porsche is as a company"
-                label="AboutUs"
-                path="/aboutUs"
-              />
-            </ul>
+                <CardItem
+                  src="../../porscheIMG/p20.jpg"
+                  text="Theres something for everyone"
+                  label="Mechanial Beauty's true form"
+                  path="/car-view"
+                />
+              </ul>
+            </div>
+            <div className="car-list-container">
+              <ul className="cards__items">
+                <CardItem
+                  src="../../porscheIMG/p28.jpeg"
+                  text="German Engineering at its "
+                  label="Find Perfection"
+                  path="/car-view"
+                />
+
+                <CardItem
+                  src="../../porscheIMG/p27.jpg"
+                  text="Theres something for everyone"
+                  label="Mechanial Beauty's true form"
+                  path="/car-view"
+                />
+              </ul>
+            </div>
+            <div className="car-list-container">
+              <ul className="cards__items">
+                <CardItem
+                  src="../../porscheIMG/p26.jpg"
+                  text="German Engineering at its "
+                  label="Find Perfection"
+                  path="/car-view"
+                />
+
+                <CardItem
+                  src="../../porscheIMG/p24.jpg"
+                  text="Theres something for everyone"
+                  label="Mechanial Beauty's true form"
+                  path="/car-view"
+                />
+              </ul>
+            </div>
           </div>
         </div>
       </div>

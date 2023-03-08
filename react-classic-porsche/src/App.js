@@ -8,6 +8,7 @@ import Products from './components/pages/Products'
 import SignUp from './components/pages/SignUp'
 import AboutUs from './components/pages/AboutUs'
 import Footer from './components/Footer'
+import CarView from './components/pages/CarView'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/products" element={Products()} />
           <Route path="/sign-up" element={SignUp()} />
           <Route path="/aboutUs" element={AboutUs()} />
+          <Route path="/car-view" element={CarView()} />
         </Routes>
         <Footer />
       </Router>
