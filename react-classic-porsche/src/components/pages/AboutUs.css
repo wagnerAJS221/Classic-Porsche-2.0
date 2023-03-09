@@ -1,0 +1,12 @@
+.about-us-information {
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: beige;
+}
+.about-us-text {
+  display: flex;
+  justify-content: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}

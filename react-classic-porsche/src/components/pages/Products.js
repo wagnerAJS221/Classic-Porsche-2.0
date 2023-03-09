@@ -3,7 +3,6 @@ import '../../App.css'
 import '../Cards.css'
 import CardItem from '../CardItem'
 import './Products.css'
-// import carData from '../../fakeData/carData.json'
 
 function Products() {
   return (

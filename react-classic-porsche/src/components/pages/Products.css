@@ -1,6 +1,5 @@
 .cards__items {
   list-style-type: none;
-  grid-template-columns: 1fr, 1fr, 1fr;
 }
 
 .car-list-container {

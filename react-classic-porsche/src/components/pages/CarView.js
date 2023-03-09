@@ -1,7 +1,6 @@
 import React from 'react'
 import '../../App.css'
 import '../Cards.css'
-import CardItem from '../CardItem'
 
 function CarView() {
   return (
