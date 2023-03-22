@@ -3,7 +3,7 @@ import { Button } from './Button'
 import { Link } from 'react-router-dom'
 import './Navbar.css'
 
-function Navbar() {
+function Navbar({ user }) {
   const [click, setClick] = useState(false)
   const [button, setButton] = useState(true)
 
@@ -23,7 +23,7 @@ function Navbar() {
   }, [])
 
   window.addEventListener('resize', showButton)
-
+  console.log(user)
   return (
     <>
       <nav className="navbar">
@@ -68,7 +68,17 @@ function Navbar() {
                 About Us
               </Link>
             </li>
-
+            {user?.email ? (
+              <li>
+                <Link
+                  to="/account"
+                  className="nav-links"
+                  onClick={closeMobileMenu}
+                >
+                  MyAccount
+                </Link>
+              </li>
+            ) : null}
             <li>
               <Link
                 to="/sign-up"
